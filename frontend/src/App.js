@@ -12,7 +12,7 @@ function App() {
   const [editingId, setEditingId] = useState(null);
   const [showAll, setShowAll] = useState(false);
 
-  const API_URL = "http://localhost:5000/api/contacts";
+  const API_URL = "https://contactmanager-backend-m5nb.onrender.com";
 
   // LOAD CONTACTS
   const loadContacts = async () => {
